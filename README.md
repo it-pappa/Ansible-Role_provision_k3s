@@ -87,4 +87,5 @@ Thanks to these repos for code and ideas:
 
 * [k3s-io/k3s-ansible](https://github.com/k3s-io/k3s-ansible)
 * [geerlingguy/turing-pi-cluster](https://github.com/geerlingguy/turing-pi-cluster)
-* [212850a/k3s-ansible](https://github.com/212850a/k3s-ansible) 
+* [212850a/k3s-ansible](https://github.com/212850a/k3s-ansible)
+* [Techno-Tim](https://github.com/techno-tim/)
