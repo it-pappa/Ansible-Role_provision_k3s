@@ -7,15 +7,17 @@ galaxy_info:
   min_ansible_version: 2.11
   platforms:
     - name: Ubuntu
+      versions:
+        - 20.04
     - name: CentOS
+      versions:
+        - 7
     - name: RHEL8
       versions:
         - 8
+
   galaxy_tags:
     - kubernetes
     - k3s
     - rancher
-    
 
-
-dependencies: []
