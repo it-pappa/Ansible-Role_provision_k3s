@@ -1,0 +1,14 @@
+---
+# tasks for provision k3s
+
+- name: prerq
+  ansible.builtin.import_tasks: 01_prerq.yml
+
+- name: download
+  ansible.builtin.import_tasks: 02_download.yml
+
+- name: provision master
+  ansible.builtin.import_tasks: 03_provision_master.yml
+
+- name: provision node(s)
+  ansible.builtin.import_tasks: 04_provision_node.yml

@@ -1,0 +1,29 @@
+---
+k3s_version: v1.23.4+k3s1
+ansible_user: ansible username
+ansible_password: Password
+systemd_dir: /etc/systemd/system
+
+# interface which will be used for flannel
+flannel_iface: "eth0"
+
+# apiserver_endpoint is virtual ip-address which will be configured on each master
+apiserver_endpoint: "virtual IP"
+
+# k3s_token is required  masters can talk together securely
+# this token should be alpha numeric only
+k3s_token: "password"
+
+# change these to your liking, the only required one is--no-deploy servicelb
+extra_server_args: "--no-deploy servicelb --no-deploy traefik"
+extra_agent_args: ""
+
+# image tag for kube-vip
+kube_vip_tag_version: "v0.4.2"
+
+# image tag for metal lb
+metal_lb_speaker_tag_version: "v0.12.1"
+metal_lb_controller_tag_version: "v0.12.1"
+
+# metallb ip range for load balancer
+metal_lb_ip_range: "ip-range"
