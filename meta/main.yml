@@ -1,0 +1,19 @@
+---
+galaxy_info:
+  role_name: provision_k3s
+  author: Dan Eckholm
+  description: Role to provision a k3s cluster. Please see README.md for credits from who built this collection.
+  license: BSD-3-Clause
+  min_ansible_version: 2.11
+  platforms:
+    - name: EL
+      versions:
+        - 8
+  galaxy_tags:
+    - kubernetes
+    - k3s
+    - rancher
+    
+
+
+dependencies: []
